@@ -1,5 +1,8 @@
+import math
 import random
 
-rand1 = random.randint(1,100)
+input = int(raw_input("Try: "))
 
-print rand1
+rnum = random.randint (1, abs(input))
+
+print rnum
