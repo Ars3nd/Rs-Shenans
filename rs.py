@@ -1,8 +1,14 @@
 import math
 import random
 
-input = int(raw_input("Try: "))
+"""input = int(raw_input("Select a Monster: "))"""
 
-rnum = random.randint (1, abs(input))
+monsters = {'Bandos' : { 
+	'Rare': ['hilt', 'tassy', 'chest'], 
+	'Uncommon': ['ores', 'pickaxe', 'rune 2h'], 
+	'Common': ['coins','herbs']} 
+}
 
-print rnum
+
+
+print monsters
